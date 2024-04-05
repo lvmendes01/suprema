@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs/ProjectEvaluation
+/.vs/suprema
+/Suprema.Comum/bin/Debug/net6.0
+/Suprema.Comum/obj
+/Suprema.Comum.Infra/bin/Debug/net6.0
+/Suprema.Comum.Infra/obj/Debug/net6.0
+/Suprema.Comum.Infra/obj

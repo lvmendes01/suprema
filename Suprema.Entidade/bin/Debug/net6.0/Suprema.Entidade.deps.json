@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Suprema.Entidade/1.0.0": {
+        "dependencies": {
+          "Suprema.Comum": "1.0.0"
+        },
+        "runtime": {
+          "Suprema.Entidade.dll": {}
+        }
+      },
+      "Suprema.Comum/1.0.0": {
+        "runtime": {
+          "Suprema.Comum.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Suprema.Entidade/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Suprema.Comum/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

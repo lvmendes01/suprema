@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Lvmendes.Escola.WebApi.props" />
+</Project>

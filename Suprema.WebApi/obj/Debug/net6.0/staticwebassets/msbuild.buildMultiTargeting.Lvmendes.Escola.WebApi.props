@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lvmendes.Escola.WebApi.props" />
+</Project>

@@ -24,11 +24,7 @@ namespace Suprema.WebApi.Controllers.Tests
             HttpResponseMessage response = await _client.PostAsync("/auth/login", content);
 
 
-
-            // Lendo o conteúdo da resposta
-            string responseBody = await response.Content.ReadAsStringAsync();
-
-            Assert.AreEqual(System.Net.HttpStatusCode.OK, response.StatusCode);
+            Assert.AreEqual(System.Net.HttpStatusCode.Unauthorized, response.StatusCode);
 
 
             Assert.Fail();

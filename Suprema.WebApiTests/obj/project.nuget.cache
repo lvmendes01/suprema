@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j4yrTK6zd/U/HUxxezCG34liZWRmNmUVH+7kjp8KzMdyjsE6HSEwY7a3OxbLAnVT4Ga9JG/mXmL56uwmBFF7Pw==",
+  "dgSpecHash": "E/W5HJXnY0425ljiQq4RXboXYETq6Un1BCMRNEXaS+OsplKB1jqgiHmIN07dZzSebbfwhFQ4FkmpjznTQ3ejHQ==",
   "success": true,
   "projectFilePath": "C:\\__2024\\suprema\\Suprema.WebApiTests\\Suprema.WebApiTests.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\leonardo.mendes\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\leonardo.mendes\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.6.0\\microsoft.testplatform.objectmodel.17.6.0.nupkg.sha512",
     "C:\\Users\\leonardo.mendes\\.nuget\\packages\\microsoft.testplatform.testhost\\17.6.0\\microsoft.testplatform.testhost.17.6.0.nupkg.sha512",
+    "C:\\Users\\leonardo.mendes\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\leonardo.mendes\\.nuget\\packages\\mstest.testadapter\\3.0.4\\mstest.testadapter.3.0.4.nupkg.sha512",
     "C:\\Users\\leonardo.mendes\\.nuget\\packages\\mstest.testframework\\3.0.4\\mstest.testframework.3.0.4.nupkg.sha512",
     "C:\\Users\\leonardo.mendes\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",

@@ -1,10 +1,3 @@
-C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.csproj.AssemblyReference.cache
-C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.AssemblyInfoInputs.cache
-C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.AssemblyInfo.cs
-C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.csproj.CoreCompileInputs.cache
-C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.sourcelink.json
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\appsettings.Development.json
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\appsettings.json
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Suprema.WebApi.exe
@@ -48,6 +41,14 @@ C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Suprema.Comum.pdb
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Suprema.Comum.Infra.pdb
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Suprema.Entidade.pdb
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Suprema.Repositorio.pdb
+C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.csproj.AssemblyReference.cache
+C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.AssemblyInfoInputs.cache
+C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.AssemblyInfo.cs
+C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.csproj.CoreCompileInputs.cache
+C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.sourcelink.json
 C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\staticwebassets.build.json
 C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\staticwebassets.development.json
 C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.Suprema.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
@@ -62,3 +63,11 @@ C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\refint\Suprema.WebApi.dll
 C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.pdb
 C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.genruntimeconfig.cache
 C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\ref\Suprema.WebApi.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Dapper.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

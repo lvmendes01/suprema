@@ -19,6 +19,51 @@ namespace Suprema.Comum.Infra.Migrations
                 .HasAnnotation("ProductVersion", "7.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("Suprema.Entidade.Entidades.PlayerTableEntidade", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("PokerTableEntidadeId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("UserEntidadeId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PokerTableEntidadeId");
+
+                    b.HasIndex("UserEntidadeId");
+
+                    b.ToTable("Tb_Suprema_PlayerTable");
+                });
+
+            modelBuilder.Entity("Suprema.Entidade.Entidades.PokerTableEntidade", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<long>("WinnerId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tb_Suprema_PokerTable");
+                });
+
             modelBuilder.Entity("Suprema.Entidade.Entidades.UserEntidade", b =>
                 {
                     b.Property<long>("Id")
@@ -51,6 +96,26 @@ namespace Suprema.Comum.Infra.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Tb_Suprema_User");
+                });
+
+            modelBuilder.Entity("Suprema.Entidade.Entidades.PlayerTableEntidade", b =>
+                {
+                    b.HasOne("Suprema.Entidade.Entidades.PokerTableEntidade", null)
+                        .WithMany("Players")
+                        .HasForeignKey("PokerTableEntidadeId");
+
+                    b.HasOne("Suprema.Entidade.Entidades.UserEntidade", "UserEntidade")
+                        .WithMany()
+                        .HasForeignKey("UserEntidadeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("UserEntidade");
+                });
+
+            modelBuilder.Entity("Suprema.Entidade.Entidades.PokerTableEntidade", b =>
+                {
+                    b.Navigation("Players");
                 });
 #pragma warning restore 612, 618
         }

@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Suprema.Comum", "Suprema.Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Suprema.Comum.Infra", "Suprema.Comum.Infra\Suprema.Comum.Infra.csproj", "{DA6A0774-88ED-4C13-92BB-E1A3736CCD2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suprema.Testes", "Suprema.Testes\Suprema.Testes.csproj", "{88D6D7B6-711F-444A-BEA0-8E00249B433A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{DA6A0774-88ED-4C13-92BB-E1A3736CCD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA6A0774-88ED-4C13-92BB-E1A3736CCD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA6A0774-88ED-4C13-92BB-E1A3736CCD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D6D7B6-711F-444A-BEA0-8E00249B433A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D6D7B6-711F-444A-BEA0-8E00249B433A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D6D7B6-711F-444A-BEA0-8E00249B433A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D6D7B6-711F-444A-BEA0-8E00249B433A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

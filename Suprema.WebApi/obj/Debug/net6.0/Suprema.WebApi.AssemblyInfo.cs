@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Suprema.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0795e0dc4476a600a51a11d7053787d548805fea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Suprema.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Suprema.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

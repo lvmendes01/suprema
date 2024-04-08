@@ -1,9 +1,3 @@
-C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.csproj.AssemblyReference.cache
-C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.GeneratedMSBuildEditorConfig.editorconfig
-C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.AssemblyInfoInputs.cache
-C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.AssemblyInfo.cs
-C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.csproj.CoreCompileInputs.cache
-C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.sourcelink.json
 C:\__2024\suprema\Suprema.Servico\bin\Debug\net6.0\Suprema.Servico.deps.json
 C:\__2024\suprema\Suprema.Servico\bin\Debug\net6.0\Suprema.Servico.dll
 C:\__2024\suprema\Suprema.Servico\bin\Debug\net6.0\Suprema.Servico.pdb
@@ -15,6 +9,12 @@ C:\__2024\suprema\Suprema.Servico\bin\Debug\net6.0\Suprema.Entidade.pdb
 C:\__2024\suprema\Suprema.Servico\bin\Debug\net6.0\Suprema.Repositorio.pdb
 C:\__2024\suprema\Suprema.Servico\bin\Debug\net6.0\Suprema.Comum.pdb
 C:\__2024\suprema\Suprema.Servico\bin\Debug\net6.0\Suprema.Comum.Infra.pdb
+C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.csproj.AssemblyReference.cache
+C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.GeneratedMSBuildEditorConfig.editorconfig
+C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.AssemblyInfoInputs.cache
+C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.AssemblyInfo.cs
+C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.csproj.CoreCompileInputs.cache
+C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.sourcelink.json
 C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.csproj.CopyComplete
 C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\Suprema.Servico.dll
 C:\__2024\suprema\Suprema.Servico\obj\Debug\net6.0\refint\Suprema.Servico.dll

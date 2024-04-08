@@ -1,14 +1,9 @@
-﻿using Suprema.Comum.Infra;
-using Suprema.Entidade;
+﻿using Suprema.Comum;
+using Suprema.Comum.Entidades;
 using Suprema.Entidade.Entidades;
 using Suprema.Repositorio.Interfaces;
 using Suprema.Servico.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Suprema.Servico.Servicos
 {
@@ -20,28 +15,61 @@ namespace Suprema.Servico.Servicos
             UserRepositorio = _UserRepositorio;
         }
 
-
-        public string Adicionar(UserEntidade entity)
+        public RetornoApi Adicionar(UserEntidade entity)
         {
+            var retorno = new RetornoApi();
 
             if (!RegraCPF.CPF_valido(entity.Cpf))
-                return "Cpf Invalido";
+                retorno.Mensagem = "Cpf Inválido \n";
+
+
+            if(UserRepositorio.Primeiro(x=>x.Cpf == entity.Cpf) != null)
+                retorno.Mensagem = "Cpf Já cadastrado \n";
+
 
             if (!RegraTelefone.Telefone_Valido(entity.Phone))
-                return "Telefone Invalido. exemplo '+55 (21) 98765-4321'";
+                retorno.Mensagem = "Telefone Inválido. exemplo '+55 (11) 11111-1111' \n";
 
+            var usuario = UserRepositorio.Adicionar(entity);
 
-            return UserRepositorio.Adicionar(entity);
+            retorno.StatusSolicitacao = usuario != null;
+            retorno.Resultado = usuario != null ? usuario.Id : "Erro ao Inserir";
+            return retorno;
+
         }
 
-        public string Atualizar(UserEntidade entity)
+        public RetornoApi Atualizar(UserEntidade entity)
         {
-            return UserRepositorio.Atualizar(entity);
+            var retorno = new RetornoApi();
+
+            var usuario = UserRepositorio.Atualizar(entity);
+            retorno.StatusSolicitacao = usuario != null;
+            retorno.Resultado = usuario != null ? usuario.Id : "Erro ao Atualizar";
+            return retorno;
         }
 
-        public string Deletar(Func<UserEntidade, bool> predicate)
+        public async  Task<UserEntidade> Authenticate(string username, string password)
         {
-            return UserRepositorio.Deletar(predicate);
+           
+            if (username == "admin" && password == "password")
+            {
+                return new UserEntidade { Username = username };
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public RetornoApi Deletar(Func<UserEntidade, bool> predicate)
+        {
+            var retorno = new RetornoApi();
+
+            var usuario = UserRepositorio.Deletar(predicate)?"Delete":"Erro";
+            retorno.StatusSolicitacao = usuario != null;
+            retorno.Resultado = usuario != null ? usuario : "Erro ao Deletar";
+            return retorno;
+
         }
 
 

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AyccxwF/p49+wr4BmFgM80+moanfsOFUi5uEV7lZB1gEbJQg0o8c//eMxiql6vMBdnm/piySSYLBc2XhMDqzjQ==",
+  "dgSpecHash": "6tr4PeINVifX1Lugi4kVYJRsisQ9w2nft3g0kqZODtUkOzC3zBtJYyJZI6lXyoI1X+hbKhBNEnJWC7BbVvZV8g==",
   "success": true,
   "projectFilePath": "C:\\__2024\\suprema\\Suprema.Servico\\Suprema.Servico.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\leonardo.mendes\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\leonardo.mendes\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "C:\\Users\\leonardo.mendes\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.2\\microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",
     "C:\\Users\\leonardo.mendes\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.2\\microsoft.entityframeworkcore.analyzers.7.0.2.nupkg.sha512",

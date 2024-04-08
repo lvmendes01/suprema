@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Scripts\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Suprema.Entidade\Suprema.Entidade.csproj" />
   </ItemGroup>
 

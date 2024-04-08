@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Suprema.Comum.Infra\Suprema.Comum.Infra.csproj" />
     <ProjectReference Include="..\Suprema.Entidade\Suprema.Entidade.csproj" />
   </ItemGroup>

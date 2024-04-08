@@ -2,12 +2,7 @@
 using Suprema.Repositorio.Interfaces;
 using Suprema.Comum.Infra;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Suprema.Base.Repositorio.Repositorios
 {
@@ -19,36 +14,36 @@ namespace Suprema.Base.Repositorio.Repositorios
         {
             Context = context;
         }
-        public string Adicionar(UserEntidade entity)
+        public UserEntidade Adicionar(UserEntidade entity)
         {
 
             try
             {
                 Context.Set<UserEntidade>().Add(entity);
                 Context.SaveChanges();
-                return "Ok";
+                return entity;
             }
             catch (Exception ex)
             {
-                return ex.Message.ToString();
+                return null;
             }
         }
 
-        public string Atualizar(UserEntidade entity)
+        public UserEntidade Atualizar(UserEntidade entity)
         {
             try
             {
                 Context.Entry(entity).State = EntityState.Modified;
                 Context.SaveChanges();
-                return "Atualizar com sucesso!!";
+                return entity;
             }
             catch (Exception ex)
             {
-                return ex.Message.ToString();
+                return null;
             }
         }
 
-        public string Deletar(Func<UserEntidade, bool> predicate)
+        public bool Deletar(Func<UserEntidade, bool> predicate)
         {
             try
             {
@@ -56,11 +51,11 @@ namespace Suprema.Base.Repositorio.Repositorios
           .Where(predicate).ToList()
           .ForEach(del => Context.Set<UserEntidade>().Remove(del));
                 Context.SaveChanges();
-                return "Deletado com sucesso!!";
+                return true;
             }
             catch (Exception ex)
             {
-                return ex.Message.ToString();
+                return false;
             }
         }
 

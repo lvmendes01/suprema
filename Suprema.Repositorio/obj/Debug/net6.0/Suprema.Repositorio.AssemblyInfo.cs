@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Suprema.Repositorio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0795e0dc4476a600a51a11d7053787d548805fea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da929e7a5c3bab1a06a2497ce7424cbc58b43b46")]
 [assembly: System.Reflection.AssemblyProductAttribute("Suprema.Repositorio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Suprema.Repositorio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

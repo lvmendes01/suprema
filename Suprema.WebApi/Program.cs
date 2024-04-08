@@ -7,8 +7,6 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Add services to the container.
 builder.Services.AddDbContext<ComumBDContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -19,7 +17,8 @@ builder.Services.AddDbContext<ComumBDContext>(options =>
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepositorio, UserRepositorio>();
 
-
+builder.Services.AddScoped<IPokerTableService, PokerTableService>();
+builder.Services.AddScoped<IPokerTableRepositorio, PokerTableRepositorio>();
 
 builder.Services.AddCors(options =>
 {
@@ -30,7 +29,6 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

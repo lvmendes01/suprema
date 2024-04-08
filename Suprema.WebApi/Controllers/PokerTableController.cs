@@ -2,6 +2,7 @@ using Suprema.Entidade.Entidades;
 using Suprema.Servico.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Suprema.Comum.Entidades;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Suprema.WebApi.Controllers
 {
@@ -21,6 +22,7 @@ namespace Suprema.WebApi.Controllers
         [HttpPost("/api/poker-tables")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [Authorize]
         public ActionResult<RetornoApi> Salvar(string Name)
         {
             var item = new PokerTableEntidade { DataCadastro = DateTime.Now, Name = Name };
@@ -32,6 +34,7 @@ namespace Suprema.WebApi.Controllers
         [HttpPost("/api/poker-tables/{tableId}/players")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [Authorize]
         public ActionResult<RetornoApi> IncluirJogador(Int64 UserId, Int64 tableId)
         {
             var retornoChamado = servico.AdicionarJogador(UserId, tableId);
@@ -43,6 +46,7 @@ namespace Suprema.WebApi.Controllers
         [HttpPost("/api/poker-tables/{tableId}/winner")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [Authorize]
         public ActionResult<RetornoApi> Ganhador(Int64 tableId)
         {
             var retornoChamado = servico.Simular(tableId);

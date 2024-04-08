@@ -23,7 +23,7 @@ namespace Suprema.WebApi.Controllers
         [HttpPost("/users")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [Authorize]
+       
         public ActionResult<RetornoApi> Salvar(UserEntidade item)
         {
             var retornoChamado = servico.Adicionar(item);

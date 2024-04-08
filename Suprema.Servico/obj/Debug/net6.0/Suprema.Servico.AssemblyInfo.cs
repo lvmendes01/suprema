@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Suprema.Servico")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da929e7a5c3bab1a06a2497ce7424cbc58b43b46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3df58decc1ee2cbb095f798ede6ace29a9c54e2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Suprema.Servico")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Suprema.Servico")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

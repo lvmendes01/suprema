@@ -48,17 +48,11 @@ namespace Suprema.Servico.Servicos
             return retorno;
         }
 
-        public async  Task<UserEntidade> Authenticate(string username, string password)
+        public  UserEntidade? Authenticate(string username, string password)
         {
+            var login = UserRepositorio.Primeiro(s => s.Username == username && s.Password == password);
+            return login ?? null;
            
-            if (username == "admin" && password == "password")
-            {
-                return new UserEntidade { Username = username };
-            }
-            else
-            {
-                return null;
-            }
         }
 
         public RetornoApi Deletar(Func<UserEntidade, bool> predicate)

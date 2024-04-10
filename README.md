@@ -1,3 +1,14 @@
+criar a base de dados
+
+remover a pasta em "Suprema.Comum.Infra\Migrations"
+
+no console 
+![image](https://github.com/lvmendes01/suprema/assets/4749630/56589331-b1e8-4973-9cb7-b21015d0ff63)
+
+add-migration inicio
+update-database
+
+
 # suprema
 
 #Teste de Desenvolvedor Back-End

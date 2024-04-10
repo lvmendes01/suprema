@@ -9,5 +9,6 @@ namespace Suprema.Repositorio.Interfaces
         string AdicionarJogador(Int64 UserId, Int64 TableId);
 
         PokerTableEntidade CarregarPoker(Int64 TableId);
+        List<PokerTableEntidade> ObterMesasDoJogadorPeloId(Int64 jogadorId);
     }
 }

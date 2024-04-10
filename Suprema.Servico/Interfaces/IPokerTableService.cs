@@ -11,5 +11,6 @@ namespace Suprema.Servico.Interfaces
 
         RetornoApi Simular(Int64 TableId);
 
+
     }
 }

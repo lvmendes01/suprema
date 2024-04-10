@@ -30,8 +30,17 @@ namespace Suprema.WebApi.Controllers
 
             return retornoChamado;
         }
-       
 
 
+        [HttpDelete("/users")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+
+        public ActionResult<RetornoApi> Delete(Int64 UsuarioiD)
+        {
+            var retornoChamado = servico.Deletar(UsuarioiD);
+
+            return retornoChamado;
+        }
     }
 }

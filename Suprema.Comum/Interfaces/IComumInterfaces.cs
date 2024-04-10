@@ -23,7 +23,7 @@ namespace Suprema.Comum.Interfaces
         T Primeiro(Expression<Func<T, bool>> predicate);
         RetornoApi Adicionar(T entity);
         RetornoApi Atualizar(T entity);
-        RetornoApi Deletar(Func<T, bool> predicate);
+        RetornoApi Deletar(Int64 Id);
     }
 }
 

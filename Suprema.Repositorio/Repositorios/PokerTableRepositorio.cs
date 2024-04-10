@@ -105,6 +105,30 @@ namespace Suprema.Base.Repositorio.Repositorios
             return Context.Set<PokerTableEntidade>().Where(predicate).ToList();
         }
 
+        public List<PokerTableEntidade> ObterMesasDoJogadorPeloId(long jogadorId)
+        {
+
+            var stringConexao = Context.Database.GetConnectionString();
+
+           
+            using (IDbConnection db = new MySqlConnection(stringConexao))
+            {
+
+                string sql = "SELECT t.* FROM bd_suprema.tb_suprema_pokertable  t " +
+                    " inner join bd_suprema.tb_suprema_playertable j on j.PokerTableEntidadeId = t.Id" +
+                    " where j.UserEntidadeId = "+jogadorId+"; ";
+
+
+                var resultado = db.Query<PokerTableEntidade>(sql).ToList();
+
+                return resultado;
+
+            }
+
+
+
+        }
+
         public List<PokerTableEntidade> ObterTodos(bool includes = false)
         {
             var query = Context.Set<PokerTableEntidade>().AsQueryable();

@@ -5,7 +5,9 @@ C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Suprema.WebApi.deps.json
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Suprema.WebApi.runtimeconfig.json
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Suprema.WebApi.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Suprema.WebApi.pdb
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Dapper.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Humanizer.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
@@ -20,6 +22,11 @@ C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.d
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\MySqlConnector.dll
@@ -28,6 +35,7 @@ C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\System.CodeDom.dll
+C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\System.Text.Json.dll
 C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
@@ -63,11 +71,3 @@ C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\refint\Suprema.WebApi.dll
 C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.pdb
 C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\Suprema.WebApi.genruntimeconfig.cache
 C:\__2024\suprema\Suprema.WebApi\obj\Debug\net6.0\ref\Suprema.WebApi.dll
-C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Dapper.dll
-C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\__2024\suprema\Suprema.WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

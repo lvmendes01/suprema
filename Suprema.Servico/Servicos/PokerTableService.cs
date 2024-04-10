@@ -67,13 +67,14 @@ namespace Suprema.Servico.Servicos
             return retorno;
         }
 
-        public RetornoApi Deletar(Func<PokerTableEntidade, bool> predicate)
+        public RetornoApi Deletar(Int64 Id)
         {
-            var retorno = new RetornoApi();
-            var poker = PokerTableRepositorio.Deletar(predicate);
-            retorno.StatusSolicitacao = poker != null;
-            retorno.Resultado = poker != null ? poker : "Erro ao Deletar";
-            return retorno;
+            throw new NotImplementedException();
+            //var retorno = new RetornoApi();
+            ////var poker = PokerTableRepositorio.Deletar(predicate);
+            //retorno.StatusSolicitacao = poker != null;
+            //retorno.Resultado = poker != null ? poker : "Erro ao Deletar";
+            //return retorno;
 
         }
 

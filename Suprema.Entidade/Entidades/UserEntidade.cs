@@ -12,6 +12,6 @@ namespace Suprema.Entidade.Entidades
     public virtual string Cpf { get; set; }
     public virtual string Phone { get; set; }
     public virtual string Password { get; set; }
-    public virtual string Username { get; set; }
-}
+        public virtual string Username { get; set; }
+    }
 }

@@ -2,11 +2,16 @@ criar a base de dados
 
 remover a pasta em "Suprema.Comum.Infra\Migrations"
 
-no console 
+seta o projeto 
+Suprema.WebApi
+
+no console   executar o comando "add-migration inicio"
+
 ![image](https://github.com/lvmendes01/suprema/assets/4749630/56589331-b1e8-4973-9cb7-b21015d0ff63)
 
-add-migration inicio
-update-database
+
+depois executar o comando "update-database"
+![image](https://github.com/lvmendes01/suprema/assets/4749630/7d68b2d2-9a45-47cd-b666-249276bebb84)
 
 
 # suprema

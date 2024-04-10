@@ -31,3 +31,10 @@ depois executar o comando "update-database"
 • Garanta que o mesmo usuário não possa ser inserido duas vezes na mesma mesa.
 • Uma mesa precisa ter no mínimo 3 jogadores para que haja um ganhador.
 • Validar minimamente os dados imputados como cpf, phone.
+
+
+
+resultado 
+
+
+![image](https://github.com/lvmendes01/suprema/assets/4749630/00f36e44-0197-4686-9500-f438135068b6)
